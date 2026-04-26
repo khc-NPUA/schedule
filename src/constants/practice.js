@@ -15,10 +15,6 @@ const manukyanQ = "Մանուկյան Ք․";
 const practice = [
   [
     /*  Понедельник */
-    null,
-    null,
-    new Practice("5", "1", "2", "5102", mxitaryan, "12:50", "14:10"),
-    new Practice("5", "10", "9", "51009", poghoxyan, "14:20", "15:40"),
   ],
 
   [
