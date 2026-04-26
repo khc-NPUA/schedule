@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/khc-NPUA/schedule/static/css/main.2c6ce2c8.css",
+    "main.js": "/khc-NPUA/schedule/static/js/main.cd3a23c6.js",
+    "static/media/spheres_aqua.png": "/khc-NPUA/schedule/static/media/spheres_aqua.b83da56740c85542abfe.png",
+    "static/media/black_gold.png": "/khc-NPUA/schedule/static/media/black_gold.1a8d3ad2eb0f6403975d.png",
+    "static/media/testet.jpg": "/khc-NPUA/schedule/static/media/testet.d4b411d1c1162b815787.jpg",
+    "index.html": "/khc-NPUA/schedule/index.html",
+    "main.2c6ce2c8.css.map": "/khc-NPUA/schedule/static/css/main.2c6ce2c8.css.map",
+    "main.cd3a23c6.js.map": "/khc-NPUA/schedule/static/js/main.cd3a23c6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c6ce2c8.css",
+    "static/js/main.cd3a23c6.js"
+  ]
+}
