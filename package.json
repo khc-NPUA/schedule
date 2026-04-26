@@ -1,8 +1,8 @@
 {
   "name": "schedule",
-  "version": "1.13.8",
+  "version": "1.13.9",
   "private": true,
-  "homepage": "https://khe4oyan.github.io/schedule",
+  "homepage": "https://khc-npua.github.io/schedule/",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.8.0",
