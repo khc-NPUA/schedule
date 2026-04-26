@@ -5,7 +5,7 @@ export default function useSettingsOption(optionData) {
   
   if (defaultValue === null) throw new Error("Add defaultValue");
 
-  const keyFormat = `${key}_setting`;
+  const keyFormat = `s_${key}`;
   const [option, setOption] = useState(JSON.parse(localStorage.getItem(keyFormat)) ?? defaultValue);
 
   const toggleOption = () => {

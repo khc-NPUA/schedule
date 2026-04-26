@@ -1,6 +1,6 @@
 {
   "name": "schedule",
-  "version": "1.13.9",
+  "version": "1.13.10",
   "private": true,
   "homepage": "https://khc-npua.github.io/schedule/",
   "dependencies": {

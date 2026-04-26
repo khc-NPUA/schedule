@@ -1,4 +1,7 @@
-.root {}
+.root {
+  max-width: 700px;
+  margin: auto;
+}
 
 .lastUpdateDateContainer {
   text-align: center;

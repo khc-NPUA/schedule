@@ -17,7 +17,7 @@ export default function Storage() {
     }
   };
 
-  const storageKeys = Object.keys(localStorage);
+  const storageKeys = Object.keys(localStorage).sort();
 
   return (
     <div className={classes.root}>
