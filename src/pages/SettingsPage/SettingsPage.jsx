@@ -21,6 +21,8 @@ import classes from "./styles.module.css";
 
 export default function SettingsPage() {
   const [isShowThemeUpdate, updateThemeVersion] = useVersion("theme", VERSIONS.THEME);
+  const [isShowInfoUpdate, updateInfoVersion] = useVersion("info", VERSIONS.INFO);
+  
   const {
     optionsValues,
     optionsKeys
@@ -49,9 +51,10 @@ export default function SettingsPage() {
         <GrStorage size="2.3rem"/>
       </Link>
 
-      <Link to={routes.INFO} className={classes.themeLink}>
+      <Link to={routes.INFO} onClick={updateInfoVersion} className={classes.themeLink}>
         <span>Ինֆո</span>
         <BsInfoCircle size="2.3rem"/>
+        {isShowInfoUpdate && <NotificationCircle />}
       </Link>
     </div>
   );
