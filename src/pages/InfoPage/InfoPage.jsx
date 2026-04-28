@@ -1,3 +1,6 @@
+// compnents
+import Updates from "../../components/Updates";
+
 // utils
 import timeFormat from '../../utils/timeFormat';
 
@@ -18,6 +21,8 @@ export default function InfoPage() {
           {timeFormat(lastUpdateAt)} առաջ
         </p>
       </div>
+
+      <Updates />
     </div>
   )
 }

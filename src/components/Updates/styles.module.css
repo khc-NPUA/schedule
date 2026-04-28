@@ -1,0 +1,15 @@
+.root {
+  margin-top: 20px;
+}
+
+.versions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.button {
+  padding: 10px;
+  background-color: var(--bg-contrast);
+  backdrop-filter: var(--bg-effect);
+}
