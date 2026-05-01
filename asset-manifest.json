@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/schedule/static/css/main.2573e8a3.css",
-    "main.js": "/schedule/static/js/main.6138be4f.js",
+    "main.css": "/schedule/static/css/main.1821c3c4.css",
+    "main.js": "/schedule/static/js/main.bd1a9d47.js",
     "static/media/spheres_aqua.png": "/schedule/static/media/spheres_aqua.b83da56740c85542abfe.png",
     "static/media/black_gold.png": "/schedule/static/media/black_gold.1a8d3ad2eb0f6403975d.png",
     "static/media/testet.jpg": "/schedule/static/media/testet.d4b411d1c1162b815787.jpg",
@@ -15,11 +15,11 @@
     "static/media/week-component.png": "/schedule/static/media/week-component.00f1cf23b7eb0b1c35a0.png",
     "static/media/theme.png": "/schedule/static/media/theme.c0db2c5d41796aa8add9.png",
     "index.html": "/schedule/index.html",
-    "main.2573e8a3.css.map": "/schedule/static/css/main.2573e8a3.css.map",
-    "main.6138be4f.js.map": "/schedule/static/js/main.6138be4f.js.map"
+    "main.1821c3c4.css.map": "/schedule/static/css/main.1821c3c4.css.map",
+    "main.bd1a9d47.js.map": "/schedule/static/js/main.bd1a9d47.js.map"
   },
   "entrypoints": [
-    "static/css/main.2573e8a3.css",
-    "static/js/main.6138be4f.js"
+    "static/css/main.1821c3c4.css",
+    "static/js/main.bd1a9d47.js"
   ]
 }
