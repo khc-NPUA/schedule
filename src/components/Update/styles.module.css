@@ -31,5 +31,6 @@
 
 .preview {
   width: 100%;
+  max-width: 425px;
   border-radius: 5px;
 }
