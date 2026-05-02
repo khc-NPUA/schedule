@@ -46,4 +46,6 @@
   --bg-image: none;
   --bg-effect: none;
   --bg-image-size: none;
+  --bg-image-position: center;
+  --bg-image-attachment: initial;
 }

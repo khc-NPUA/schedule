@@ -1,8 +1,8 @@
 const VERSIONS = {
   EVENTS: 0,
-  THEME: 0,
-  SETTINGS: 1,
-  INFO: 1,
+  THEME: 1,
+  SETTINGS: 2,
+  INFO: 2,
 };
 
 export default VERSIONS;

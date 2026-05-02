@@ -1,49 +1,51 @@
 .colors_moon {
   /* semantic layer */
-  --bg: #f2f2f2;
-  --bg-contrast: #ffffff;
+  --bg: rgb(22, 22, 22);
+  --bg-contrast: #0000001e;
 
-  --text: #1a1a1a;
-  --text-dim: #777777;
-  --text-negative: #fafafa;
+  --text: #ffffff;
+  --text-dim: #e2e2e2;
+  --text-negative: #161616;
 
-  --primary: #3b82f6;
-  --primary-shade: #1c50a5;
+  --primary: #ffffff;
+  --primary-shade: #dbdbdb;
   --primary-gradient: linear-gradient(to bottom, var(--primary), var(--primary-shade));
 
-  --secondary: #ff5aa5;
-  --secondary-shade: #c5407c;
+  --secondary: #afafaf;
+  --secondary-shade: #585858;
   --secondary-gradient: linear-gradient(to bottom, var(--secondary), var(--secondary-shade));
 
   --primary-secondary-gradient: linear-gradient(to bottom, var(--primary), var(--secondary));
 
-  --accent: #0059ff;
+  --accent: #ffffff;
   
   --error: #f06b6b;
   --success: #9ef06b;
 
   /* button */
   --button-bg: var(--bg-contrast);
-  --button-bg-disabled: #d1d1d1;
+  --button-bg-disabled: #5a5a5a;
   
   /* surfaces */
   --surface: #00000080;
-  --border: #b9b9b9;
+  --border: #747474;
 
   /* message */
-  --message-color: #073107;
-  --message-border-color: #61c469;
-  --message-bg: linear-gradient(135deg, var(--bg-contrast), 75%, #61c469);
+  --message-color: #ffffff;
+  --message-border-color: #acacac;
+  --message-bg: linear-gradient(135deg, var(--bg-contrast), 75%, #000000);
 
   /* lesson */
-  --lesson-timer-color: #1a1a1a;
-  --lesson-timer-bg: #0000000d;
+  --lesson-timer-color: #ffffff;
+  --lesson-timer-bg: #00000060;
 
   /* notification */
   --notification-bg: #ff0000;
 
   /* visual background */
-  --bg-image: none;
-  --bg-effect: none;
-  --bg-image-size: none;
+  --bg-image: url("../assets/img/background/moon.jpg");
+  --bg-effect: blur(10px);
+  --bg-image-size: cover;
+  --bg-image-position: center;
+  --bg-image-attachment: fixed;
 }

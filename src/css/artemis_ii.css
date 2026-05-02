@@ -1,49 +1,57 @@
 .colors_artemis_2 {
   /* semantic layer */
-  --bg: #f2f2f2;
-  --bg-contrast: #ffffff;
+  --bg: rgb(22, 22, 22);
+  --bg-contrast: #0000008a;
 
-  --text: #1a1a1a;
-  --text-dim: #777777;
-  --text-negative: #fafafa;
+  --text: #ffffff;
+  --text-dim: #e2e2e2;
+  --text-negative: #161616;
 
-  --primary: #3b82f6;
-  --primary-shade: #1c50a5;
-  --primary-gradient: linear-gradient(to bottom, var(--primary), var(--primary-shade));
+  --primary: #ffffff;
+  --primary-shade: #230cf169;
+  --primary-gradient: none;
 
-  --secondary: #ff5aa5;
-  --secondary-shade: #c5407c;
-  --secondary-gradient: linear-gradient(to bottom, var(--secondary), var(--secondary-shade));
+  --secondary: #3d68c4a4;
+  --secondary-shade: #230cf169;
+  --secondary-gradient: none;
 
-  --primary-secondary-gradient: linear-gradient(to bottom, var(--primary), var(--secondary));
+  --primary-secondary-gradient: none;
 
-  --accent: #0059ff;
+  --accent: #e4edff;
   
   --error: #f06b6b;
   --success: #9ef06b;
 
   /* button */
   --button-bg: var(--bg-contrast);
-  --button-bg-disabled: #d1d1d1;
+  --button-bg-disabled: #313131;
   
   /* surfaces */
   --surface: #00000080;
-  --border: #b9b9b9;
+  --border: #ffffff5d;
 
   /* message */
-  --message-color: #073107;
-  --message-border-color: #61c469;
-  --message-bg: linear-gradient(135deg, var(--bg-contrast), 75%, #61c469);
+  --message-color: #ffffff;
+  --message-border-color: #3d68c4a4;
+  --message-bg: linear-gradient(135deg, #0d0d0ee5, 75%, #230cf169);
 
   /* lesson */
-  --lesson-timer-color: #1a1a1a;
-  --lesson-timer-bg: #0000000d;
+  --lesson-timer-color: #ffffff;
+  --lesson-timer-bg: #000000cc;
 
   /* notification */
   --notification-bg: #ff0000;
 
   /* visual background */
-  --bg-image: none;
-  --bg-effect: none;
+  --bg-image: url("../assets/img/background/moon_craters.jpg");
+  --bg-effect: blur(5px);
   --bg-image-size: none;
+  --bg-image-position: center;
+  --bg-image-attachment: fixed;
+
+  /* planets unique for this theme*/
+  --planet_1: url("../assets/img/background/mercury.png");
+  --planet_2: url("../assets/img/background/venus.png");
+  --planet_3: url("../assets/img/background/earth.png");
+  --planet_4: url("../assets/img/background/mars.png");
 }

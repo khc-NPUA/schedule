@@ -9,6 +9,7 @@ import getDateTime from '../../utils/getDateTime'
 
 // custom hooks
 import useSettingsOption from '../../customHooks/useSettingsOption';
+import useTheme from '../../customHooks/useTheme';
 
 // constants
 import settings from '../../constants/settings'; 
@@ -27,6 +28,9 @@ export default function Lesson({ data }) {
   const type = data?.type;
   const group = data?.subGroup;
   const tempRoom = data?.tempRoom;
+
+  const [theme] = useTheme();
+  const isArtemisTheme = theme === "colors_artemis_2";
 
   const [timer, setTimer] = useState(() => {
     if (status === lessonStatuses.CURRENT) {
@@ -81,7 +85,7 @@ export default function Lesson({ data }) {
   }, [timer]);
 
   return (
-    <div className={`${classes.root} ${status === lessonStatuses.CURRENT && classes.rootCurrent} ${status === lessonStatuses.COMPLETED && classes.rootCompleted}`}>
+    <div className={`${classes.root} ${isArtemisTheme && classes.planets} ${status === lessonStatuses.CURRENT && classes.rootCurrent} ${status === lessonStatuses.COMPLETED && classes.rootCompleted}`}>
       <div className={classes.titleBox}>
         <p className={classes.title}>{title} {type && type } {group > 0 && group }</p>
       </div>

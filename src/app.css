@@ -23,7 +23,8 @@ body {
   background-color: var(--bg);
   background-image: var(--bg-image);
   background-size:  var(--bg-image-size);
-  background-position: center;
+  background-position: var(--bg-image-position);
+  background-attachment: var(--bg-image-attachment);
 }
 
 button {

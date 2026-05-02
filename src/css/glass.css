@@ -46,4 +46,6 @@
   --bg-image: url("../assets/img/background/spheres_aqua.png");
   --bg-effect: blur(15px);
   --bg-image-size: cover;
+  --bg-image-position: center;
+  --bg-image-attachment: initial;
 }

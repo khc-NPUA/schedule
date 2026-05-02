@@ -9,6 +9,7 @@
   border-radius: 5px;
   padding: 10px 0;
   backdrop-filter: var(--bg-effect);
+  background-color: var(--bg-contrast);
 }
 
 .buttons {

@@ -16,6 +16,12 @@
   backdrop-filter: var(--bg-effect);
 }
 
+.planets {
+  background-position: 150% 0%;
+  background-repeat: no-repeat;
+  background-size: 60%;
+}
+
 .rootCurrent {
   .line {
     background: var(--primary-gradient);

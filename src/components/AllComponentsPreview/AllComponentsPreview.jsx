@@ -6,7 +6,6 @@ import BeforeClass from "../BeforeClass";
 import Weekend from "../Weekend";
 import AfterClass from "../AfterClass";
 import Break from "../Break";
-import Header from "../Header";
 import Lesson from "../Lesson";
 import ShowWeekLessons from "../ShowWeekLessons";
 import NotificationCircle from "../NotificationCircle";
@@ -33,8 +32,6 @@ export default function AllComponentsPreview() {
 function AllVersions({ theme }) {
   return (
     <div className={`colors_default ${theme} ${classes.version}`}>
-      {/* <Header /> */}
-
       <h2 className={classes.themeText}>{theme}</h2>
 
       <div className={classes.buttons}>
