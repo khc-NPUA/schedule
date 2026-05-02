@@ -1,13 +1,20 @@
 {
   "files": {
-    "main.css": "/schedule/static/css/main.1821c3c4.css",
-    "main.js": "/schedule/static/js/main.bd1a9d47.js",
+    "main.css": "/schedule/static/css/main.0cda72c7.css",
+    "main.js": "/schedule/static/js/main.b958093b.js",
     "static/media/spheres_aqua.png": "/schedule/static/media/spheres_aqua.b83da56740c85542abfe.png",
+    "static/media/moon.jpg": "/schedule/static/media/moon.f2a9e9d4bf38ccd49f02.jpg",
+    "static/media/moon_craters.jpg": "/schedule/static/media/moon_craters.8ec54b2985918dd8b32a.jpg",
     "static/media/black_gold.png": "/schedule/static/media/black_gold.1a8d3ad2eb0f6403975d.png",
     "static/media/testet.jpg": "/schedule/static/media/testet.d4b411d1c1162b815787.jpg",
+    "static/media/theme-moon.png": "/schedule/static/media/theme-moon.8ab3582eb3e3812b5430.png",
+    "static/media/earth.png": "/schedule/static/media/earth.388da38fec268700e5d2.png",
     "static/media/themes-z.png": "/schedule/static/media/themes-z.cbf805fb9e9bae281e4a.png",
     "static/media/themes.png": "/schedule/static/media/themes.87a4a50061794e2fceff.png",
+    "static/media/mars.png": "/schedule/static/media/mars.398d882fc0fd0f821491.png",
     "static/media/panel-5.png": "/schedule/static/media/panel-5.9db53037459ac24133a8.png",
+    "static/media/venus.png": "/schedule/static/media/venus.3347807fe24f7bec32cd.png",
+    "static/media/mercury.png": "/schedule/static/media/mercury.62db37039b6076de41a9.png",
     "static/media/theme-2.png": "/schedule/static/media/theme-2.0408f68669368703db67.png",
     "static/media/theme-goldblack.png": "/schedule/static/media/theme-goldblack.c6285dc56c396ffd9f42.png",
     "static/media/theme-3.png": "/schedule/static/media/theme-3.a2aee1a83e9d74625c23.png",
@@ -15,11 +22,11 @@
     "static/media/week-component.png": "/schedule/static/media/week-component.00f1cf23b7eb0b1c35a0.png",
     "static/media/theme.png": "/schedule/static/media/theme.c0db2c5d41796aa8add9.png",
     "index.html": "/schedule/index.html",
-    "main.1821c3c4.css.map": "/schedule/static/css/main.1821c3c4.css.map",
-    "main.bd1a9d47.js.map": "/schedule/static/js/main.bd1a9d47.js.map"
+    "main.0cda72c7.css.map": "/schedule/static/css/main.0cda72c7.css.map",
+    "main.b958093b.js.map": "/schedule/static/js/main.b958093b.js.map"
   },
   "entrypoints": [
-    "static/css/main.1821c3c4.css",
-    "static/js/main.bd1a9d47.js"
+    "static/css/main.0cda72c7.css",
+    "static/js/main.b958093b.js"
   ]
 }
