@@ -20,7 +20,7 @@ export default function ThemeButton({ themeData, onClickTheme }) {
 
   return (
     <button
-      className={`${themeData.isDevelop ? "colors_develop" : themeData.theme} ${classes.button}`}
+      className={`${themeData.theme} ${themeData.isDevelop && classes.inDevelopment} ${classes.button}`}
       onClick={onClickHandler}
       disabled={themeData.isDevelop}
     >

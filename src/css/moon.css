@@ -1,17 +1,18 @@
-.colors_develop {
-  --bg: #000000;
-  --bg-contrast: repeating-linear-gradient(45deg, #000 0px, #000 20px, orange 20px, orange 40px);
+.colors_moon {
+  /* semantic layer */
+  --bg: #f2f2f2;
+  --bg-contrast: #ffffff;
 
-  --text: #ffffff;
+  --text: #1a1a1a;
   --text-dim: #777777;
   --text-negative: #fafafa;
 
-  --primary: orange;
-  --primary-shade: black;
+  --primary: #3b82f6;
+  --primary-shade: #1c50a5;
   --primary-gradient: linear-gradient(to bottom, var(--primary), var(--primary-shade));
 
-  --secondary: black;
-  --secondary-shade: orange;
+  --secondary: #ff5aa5;
+  --secondary-shade: #c5407c;
   --secondary-gradient: linear-gradient(to bottom, var(--secondary), var(--secondary-shade));
 
   --primary-secondary-gradient: linear-gradient(to bottom, var(--primary), var(--secondary));
@@ -23,11 +24,11 @@
 
   /* button */
   --button-bg: var(--bg-contrast);
-  --button-bg-disabled: #000000;
+  --button-bg-disabled: #d1d1d1;
   
   /* surfaces */
   --surface: #00000080;
-  --border: orange;
+  --border: #b9b9b9;
 
   /* message */
   --message-color: #073107;
@@ -43,6 +44,6 @@
 
   /* visual background */
   --bg-image: none;
-  --bg-effect: blur(8px);
+  --bg-effect: none;
   --bg-image-size: none;
 }

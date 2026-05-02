@@ -22,7 +22,7 @@
   z-index: 1;
   border-radius: 10px;
   color: var(--text);
-  backdrop-filter: var(--bg-effect);
+  backdrop-filter: blur(5px);
 }
 
 .developText {
@@ -41,6 +41,10 @@
   color: var(--text);
   background-color: var(--bg-contrast);
   backdrop-filter: var(--bg-effect);
+}
+
+.inDevelopment {
+  backdrop-filter: blur(10px);
 }
 
 .themePreviewCard {

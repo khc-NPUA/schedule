@@ -1,5 +1,6 @@
 const themesData = [
-  // { name: "Monitor Effect", theme: "colors_monitor", version: 0, isDevelop: true },
+  { name: "Artemis II", theme: "colors_artemis_2", version: 0, isDevelop: true },
+  { name: "Moon", theme: "colors_moon", version: 0, isDevelop: true },
   { name: "Testet", theme: "colors_testet", version: 0 },
   { name: "Cyber Slate", theme: "colors_cyber_slate", version: 0 },
   { name: "Gold & Black", theme: "colors_gold_black", version: 0 },
